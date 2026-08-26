@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T15:56:01+00:00",
+  "generatedAt": "2026-08-26T18:05:10+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,8 +8,47 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 18,
+  "count": 21,
   "items": [
+    {
+      "cveID": "CVE-2026-8452",
+      "vendor": "Citrix",
+      "product": "NetScaler ADC and NetScaler Gateway",
+      "name": "Citrix NetScaler ADC and NetScaler Gateway Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
+      "description": "Citrix NetScaler ADC and NetScaler Gateway contain an improper restriction of operations within the bounds of a memory buffer vulnerability which could lead to denial of service. ",
+      "dateAdded": "2026-08-26",
+      "dueDate": "2026-08-29",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "cvss": 9.8,
+      "kev": true
+    },
+    {
+      "cveID": "CVE-2019-1068",
+      "vendor": "Microsoft",
+      "product": "SQL Server",
+      "name": "Microsoft SQL Server Remote Code Execution Vulnerability",
+      "description": "Microsoft SQL Server contains a remote code execution vulnerability that could allow an attacker to execute code in the context of the SQL Server Database Engine service account.",
+      "dateAdded": "2026-08-26",
+      "dueDate": "2026-08-29",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "cvss": 8.8,
+      "kev": true
+    },
+    {
+      "cveID": "CVE-2021-23758",
+      "vendor": "Ajax.NET Professional",
+      "product": "Ajax.NET Professional",
+      "name": "Ajax.NET Professional Deserialization of Untrusted Data Vulnerability",
+      "description": "Ajax.NET Professional (AjaxPro) contains a deserialization of untrusted data vulnerability that could allow for remote code execution via arbitrary .NET classes. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.",
+      "dateAdded": "2026-08-26",
+      "dueDate": "2026-09-09",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "cvss": 8.1,
+      "kev": true
+    },
     {
       "cveID": "CVE-2026-60004",
       "vendor": "Gitea",
